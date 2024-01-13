@@ -1,0 +1,27 @@
+// Authentication Action Types
+
+// Registration
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTRATION_START = "REGISTRATION_START";
+export const REGISTER_FAILURE = "REGISTER_FAILURE";
+
+// Login
+export const LOGIN_START = "LOGIN_START";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
+
+// Logout
+export const USER_LOGOUT = "USER_LOGOUT";
+
+// Profile
+export const PROFILE_FETCH_START = "PROFILE_FETCH_START";
+export const PROFILE_FETCH_SUCCESS = "PROFILE_FETCH_SUCCESS";
+export const PROFILE_FETCH_FAILURE = "PROFILE_FETCH_FAILURE";
+
+// Update Profile
+export const PROFILE_UPDATE_SUCCESS = "PROFILE_UPDATE_SUCCESS";
+export const PROFILE_UPDATE_FAILURE = "PROFILE_UPDATE_FAILURE";
+
+// Delete Profile
+export const PROFILE_DELETE_SUCCESS = "PROFILE_DELETE_SUCCESS";
+export const PROFILE_DELETE_FAILURE = "PROFILE_DELETE_FAILURE";
